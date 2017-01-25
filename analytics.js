@@ -4,10 +4,12 @@ _gaq.push(['_trackPageview']);
 
 function isAnalyticsEnabled() {
 	try {
-		return chrome.extension.getBackgroundPage().prefs.get("analyticsEnabled");
+		// return chrome.extension.getBackgroundPage().prefs.get("analyticsEnabled");
+		return false;
 	} catch (ex) {
 		console.log(ex);
-		return true;
+		// return true;
+		return false;
 	}
 }
 
