@@ -4,7 +4,7 @@ Stylish - a user style manager for Google Chrome and Opera.
 
 This is a fork of [the Chrome edition of Stylish](https://github.com/stylish-userstyles/stylish-chrome/) based on version 1.5.2.
 
-The reason for this fork is because in  version 1.7.2, a new interface was introduced that would request the "top" styles for the current webpage you were on. In order to do this, it would need to send what websites you visit to `https://api.userstyles.org/tic`, which could be used to spy on you. To make things works, the new UI was unusable.
+The reason for this fork is because in  version 1.7.2, a new interface was introduced that would request the "top" styles for the current webpage you were on. In order to do this, it would need to send what websites you visit to `https://api.userstyles.org/tic`, which could be used to spy on you. To make things worse, the new UI was unusable.
 
 I'm not going to bother updating this past cleaning things up.
 
